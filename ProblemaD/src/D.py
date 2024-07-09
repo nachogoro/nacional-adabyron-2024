@@ -1,16 +1,9 @@
+from collections import Counter
+
 def caso():
     palabra = input()
-    letras = {} # Diccionario para contar las letras
-
-    # Recorrer las letras de la palabra
-    for letra in palabra:
-        if letra in letras:
-            # Si existe la clave añadir 1 a la cuenta
-            letras[letra] += 1
-        else:
-            # Si no existe la clave, crearla
-            letras[letra] = 1
-
+    letras = Counter(palabra) # Diccionario con la frecuencia de cada letra
+    
     """
     Convertir los valores del diccionario a un conjunto, de modo
     que almacene las cantidades diferentes que aparecen las letras.
