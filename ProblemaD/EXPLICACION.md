@@ -22,3 +22,4 @@ es 1.
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
 | [SolucionDConMapaYSet.java](src/SolucionDConMapaYSet.java) | :white_check_mark: |
+| [D.py](src/D.py) | :white_check_mark: |
