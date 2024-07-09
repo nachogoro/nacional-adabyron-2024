@@ -7,7 +7,7 @@ de las sabidurías ordenados en orden ascendente.
 
 Para que el mago con sabiduría inicial $a_{i_0}$ pueda ganar, la estrategia óptima es primero enfrentarse a todos
 los rivales más débiles, esto es, $a_0, \ldots, a_{i_0-1}$, para poder obtener un nivel de sabiduría
-$\sum_{k=0}^{i_0} a_k$. Si se diera el caso de que el $(i_0 + 1)$-ésimo mago menos poderoso tuviera una sabiduría
+$a_0 + a_1 + \cdots + a_{i_0}$. Si se diera el caso de que el $(i_0 + 1)$-ésimo mago menos poderoso tuviera una sabiduría
 mayor a esa constante, entonces el mago $i_0$ no tendría ninguna posibilidad de derrotar a ningún otro mago. En caso
 contrario, el mago $i_0 + 1$ podría ser derrotado y el mago $i_0$ seguiría en el torneo.
 
