@@ -2,18 +2,18 @@
 El problema consiste en identificar al mago con una sabiduría inicial menor, que pueda ganar el torneo.
 
 Para ello, tenemos que ordenar los magos por su nivel de sabiduría inicial, guardando los valores de los índices en el
-array original para poder determinar la solución. Sean $a_0, a_1, \ldots, a_{n-1}$ los valores
+array original para poder determinar la solución. Sean $\tilde{s}_0, \tilde{s}_1, \ldots, \tilde{s}_{n-1}$ los valores
 de las sabidurías ordenados en orden ascendente.
 
-Para que el mago con sabiduría inicial $a_{i_0}$ pueda ganar, la estrategia óptima es primero enfrentarse a todos
-los rivales más débiles, esto es, $a_0, \ldots, a_{i_0-1}$, para poder obtener un nivel de sabiduría
-$\sum_{k=0}^{i_0} a_k$. Si se diera el caso de que el $(i_0 + 1)$-ésimo mago menos poderoso tuviera una sabiduría
+Para que el mago con sabiduría inicial $\tilde{s}_{i_0}$ pueda ganar, la estrategia óptima es primero enfrentarse a todos
+los rivales más débiles, esto es, $\tilde{s}_0, \ldots, \tilde{s}_{i_0-1}$, para poder obtener un nivel de sabiduría
+$\sum_{k=0}^{i_0} \tilde{s}_k$. Si se diera el caso de que el $(i_0 + 1)$-ésimo mago menos poderoso tuviera una sabiduría
 mayor a esa constante, entonces el mago $i_0$ no tendría ninguna posibilidad de derrotar a ningún otro mago. En caso
 contrario, el mago $i_0 + 1$ podría ser derrotado y el mago $i_0$ seguiría en el torneo.
 
-Por consiguiente, el mago con menor sabiduría inicial que puede ganar el torneo es el mayor valor de $a_i$ tal que
+Por consiguiente, el mago con menor sabiduría inicial que puede ganar el torneo es el mayor valor de $\tilde{s}_i$ tal que
 
-$$a_i > \sum_{k=0}^{i-1} a_k.$$
+$$\tilde{s}_i > \sum_{k=0}^{i-1} \tilde{s}_k.$$
 
 Existen dos maneras de atacar este problema:
 
