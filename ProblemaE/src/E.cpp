@@ -8,7 +8,6 @@ typedef vector<int> vi;
 
 const int INF = INT_MAX;
 
-int N;
 struct FenwickTree{
     vector<int> ft;
     FenwickTree(int m){
@@ -28,6 +27,7 @@ struct FenwickTree{
             ft[ i ] += v;
     }
 };
+int N;
 int nth(FenwickTree& ft, int start, int n){ // O(logn) donde n pertenece [0, N-start-1]
     int l = start, r = N;
     while(l<=r){
