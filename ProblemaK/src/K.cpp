@@ -24,7 +24,11 @@ void resuelveCaso(){
     int n, k; cin >> n >> k;
 
     vector<long long> v(n);
-    for(auto&e:v) cin >> e;
+    long long sum = 0;
+    for(auto&e:v) {
+        cin >> e;
+        sum += e;
+    }
 
     vector<long long> dp(n+1, 0);
     cola_monotona cm;
@@ -38,7 +42,7 @@ void resuelveCaso(){
         dp[i] = ColaMonotona::minimo(cm);
     }
 
-    cout << dp[0] << endl;
+    cout << sum - dp[0] << endl;
 }
 
 
