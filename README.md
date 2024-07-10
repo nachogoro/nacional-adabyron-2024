@@ -40,8 +40,8 @@ qué problemas necesitan más trabajo:
 | G        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                |
 | H        | :x:                | :x:                | :x:                | :x:                | :x:                |
 | I        | :x:                | :x:                | :x:                | :x:                | :x:                |
-| J        | :white_check_mark: | :x:                | :x:                | :x:                | :x:                |
-| K        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| J        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| K        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | L        | :white_check_mark: | :x:                | :x:                | :x:                | :x:                |
 
 ¡Anímate a contribuir incluso si ya existen soluciones para el problema que
