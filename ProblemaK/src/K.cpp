@@ -10,9 +10,9 @@ namespace ColaMonotona{
     void insertar(cola_monotona & cm, int k, long long x, int i){
         while(!cm.empty() && x <= cm.front().first)
             cm.pop_front();
+        cm.push_front({x,i});
         while(!cm.empty() && cm.back().second >= i+k)
             cm.pop_back();
-        cm.push_front({x,i});
     }
 
     inline long long minimo(cola_monotona & cm){
@@ -37,7 +37,7 @@ void resuelveCaso(){
         ColaMonotona::insertar(cm, k+1, v[i], i);
     }
     for(int i = n-k-1; i >= 0; --i){
-        int x = v[i] + dp[i+1];
+        long long x = v[i] + dp[i+1];
         ColaMonotona::insertar(cm, k+1, x, i);
         dp[i] = ColaMonotona::minimo(cm);
     }
