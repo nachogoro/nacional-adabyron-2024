@@ -28,3 +28,4 @@ de programación dinámica de la primera implementación.
 |:--------------------------:|:----------------------:|
 | [KConDP.py](src/KConDP.py) |   :white_check_mark:   |
 | [KSinDP.py](src/KSinDP.py) |   :white_check_mark:   |
+| [K.cpp](src/K.cpp) |   :white_check_mark:   |
