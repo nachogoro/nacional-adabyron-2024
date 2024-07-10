@@ -40,7 +40,7 @@ prueba. Cada caso de prueba consta de dos líneas.
 En la primera línea de cada caso se indica el número de partidas en total $N$ ($1 \le N \le 300.000$) y el
 número de partidas $K$ ($1 \le K \le N$) en las que como mucho Nigel va a participar de forma consecutiva.
 
-En la segunda línea de cada caso se indican $N$ enteros $p_i$ ($1 \le p_i \le 109$), siendo cada uno la puntuación
+En la segunda línea de cada caso se indican $N$ enteros $p_i$ ($1 \le p_i \le 10^9$), siendo cada uno la puntuación
 que obtendrá Nigel si participa en esa partida.
 
 ## Salida

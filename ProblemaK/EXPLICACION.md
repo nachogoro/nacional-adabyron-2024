@@ -3,9 +3,9 @@ Este problema puede ser solucionado mediante programación dinámica, intentando
 por no participar en algunas partidas. Por tanto, definimos el array $pierde[i]$ como la mínima puntación perdida desde la
 partida $1$ hasta la $i$, _si nos saltamos la partida $i$_.
 
-Por convenio, definimos $pierde[0] := 0$. Si $i \le k + 1$, es fácil ver (numerando los $p_i$ en 1-based indexing) que $pierde[i] = p_i$,
+Por convenio, definimos $pierde[0] := 0$. Si $1 \le i \le k + 1$, es fácil ver (numerando los $p_i$ en 1-based indexing) que $pierde[i] = p_i$,
 dado que los valores de $p_i$ no son negativos. Para $i > k + 1$, definimos la recursión
-$$pierde[i] = p_i + \min_{j=i-k-1}^{i-1} \{ pierde[j] \}$$
+$$pierde[i] = p_i + \min_{j=i-k-1}^{i-1} \{ pierde[j] \}.$$
 
 El mínimo sobre una ventana deslizante del array $pierde$ se puede calcular en de forma eficiente gracias a una
 [modificación de la cola](https://cp-algorithms.com/data_structures/stack_queue_modification.html#queue-modification-method-2)
