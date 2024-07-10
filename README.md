@@ -42,7 +42,7 @@ qué problemas necesitan más trabajo:
 | I        | :x:                | :x:                | :x:                | :x:                | :x:                |
 | J        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | K        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| L        | :white_check_mark: | :x:                | :x:                | :x:                | :x:                |
+| L        | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 
 ¡Anímate a contribuir incluso si ya existen soluciones para el problema que
 tenías en mente! El propósito de esta tabla es mostrar el estado actual del
