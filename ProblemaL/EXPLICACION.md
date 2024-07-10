@@ -24,6 +24,13 @@ el mejor camino encontrado para un nodo: en caso de un bucle, llegaremos al
 mismo nodo con un camino que nunca será más prometedor, por lo que no
 extenderemos el camino a través de ese nodo.
 
+# Opción 2: BFS
+Se procede con BFS limitando que el nodo destino no se incluye en la cola,
+solo se le actualiza el flujo máximo que le alcanza. Para el resto de nodos
+del grafo se además se les añade a la cola si se les mejora el flujo máximo
+que los alcanza y no están en la cola.
+
+
 # Posibles errores
 - Intentar una búsqueda por vuelta-atrás, sin explorar antes los caminos más
   prometedores.
@@ -34,3 +41,4 @@ extenderemos el camino a través de ese nodo.
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
 | [LRyP.java](src/LRyP.py) | :white_check_mark: |
+| [L.cpp](src/L.cpp) | :white_check_mark: |
