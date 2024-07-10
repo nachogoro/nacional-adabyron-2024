@@ -49,4 +49,4 @@ posición 8.
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| [D.py](src/D.py) | :white_check_mark: |
+| [B.py](src/B.py) | :white_check_mark: |
