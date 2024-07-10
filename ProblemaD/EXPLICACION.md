@@ -23,3 +23,4 @@ es 1.
 | :------: | :--------------------: |
 | [SolucionDConMapaYSet.java](src/SolucionDConMapaYSet.java) | :white_check_mark: |
 | [D.py](src/D.py) | :white_check_mark: |
+| [D.cpp](src/D.cpp) | :white_check_mark: |
