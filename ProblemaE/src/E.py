@@ -5,7 +5,7 @@ from typing import *
 # traducido de la implementación en: https://cp-algorithms.com/data_structures/fenwick.html
 class FenwickTree:
     def __init__(self, a: list[int]):
-        self.bit = [0] * len(a)
+        self.bit = [0] * len(a)  # binary indexed tree
 
         for i, a_i in enumerate(a):
             self.bit[i] += a_i
@@ -44,30 +44,29 @@ def binary_search_lower_bound(f: Callable[[int], int], x: int, lower: int, upper
     return upper
 
 
-def test(sinfonias: list[int], consultas: int):
+def test(sinfonias: list[int], consultas: Iterable[int]) -> Iterator[tuple[int, bool]]:
     n = len(sinfonias)
-    ft = FenwickTree([0] * n)
+    ft = FenwickTree([0] * n)  # Un 1 indica que la sinfonía ha sido descubierta y un 0 indica lo contrario.
 
     inicio_renum = 0  # índice inicial de la renumeración (inclusivo)
     final_renum = 0  # índice final de la renumeración (exclusivo)
 
-    sinfonias_iter = iter(sinfonias)
-    nueva_sinfonia: int  # identificador de la última sinfonía descubierta
+    iter_sinfonias = iter(sinfonias)
+    nueva_sinfonia: int
 
     for consulta in consultas:
         while consulta >= final_renum:
-            # Añadimos una nueva sinfonía al catálogo
-            nueva_sinfonia = next(sinfonias_iter)
+            nueva_sinfonia = next(iter_sinfonias)
+            huecos = ft.sum(n - 1) - ft.sum(nueva_sinfonia) + 1
+            ft.add(nueva_sinfonia, 1)  # añadir la nueva sinfonía al catálogo
 
-            huecos = ft.sum(n - 1) - ft.sum(nueva_sinfonia) + 1  # Número de huecos generados por el descubrimiento de la nueva sinfonía
-            ft.add(nueva_sinfonia, 1)
-
-            # Actualizamos los rangos de la renumeración
+            # actualizar el rango de la renumeración
             inicio_renum = final_renum
             final_renum += huecos
 
         id_sinfonia = binary_search_lower_bound(ft.sum, ft.sum(nueva_sinfonia) + consulta - inicio_renum, -1, n - 1)
-        definitiva = ft.sum(id_sinfonia) == id_sinfonia + 1  # La numeración es definitiva si ya han aparecido todas las sinfonías anteriores
+
+        definitiva = ft.sum(id_sinfonia) == id_sinfonia + 1
 
         yield id_sinfonia, definitiva
 
