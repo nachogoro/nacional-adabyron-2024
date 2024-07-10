@@ -19,6 +19,35 @@ ser comprobadas por el juez automático del concurso (y se indicará). En otros
 casos, puede que no haya sido posible hacerlo, y es posible que contengan
 errores o no ser lo suficientemente eficientes.
 
+## ¿Cómo colaborar?
+Para cada problema queremos tener el enunciado, al menos una explicación de
+cómo resolverlo y al menos una implementación de alguna de las explicaciones.
+
+Idealmente, todos los problemas deberían tener una explicación y una
+implementación en cada lenguaje soportado en el concurso.
+
+Esta tabla refleja el estado de cada problema, para poder detectar fácilmente
+qué problemas necesitan más trabajo:
+
+| Problema | Enunciado          | Explicación        | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) |
+| :------: | :----------------: | :---------:        | :--------------:   | :--------------:   | :--------------:   |
+| A        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| B        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| C        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| D        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| E        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| F        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| G        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                |
+| H        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| I        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| J        | :white_check_mark: | :x:                | :x:                | :x:                | :x:                |
+| K        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| L        | :white_check_mark: | :x:                | :x:                | :x:                | :x:                |
+
+¡Anímate a contribuir incluso si ya existen soluciones para el problema que
+tenías en mente! El propósito de esta tabla es mostrar el estado actual del
+repositorio para quienes no tengan preferencias acerca de qué problema atacar.
+
 ## Acerca de los problemas
 Para obtener una idea aproximada de la dificultad relativa de cada problema, se
 incluyen aquí las estadísticas de superación de cada problema durante el
