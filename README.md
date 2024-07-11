@@ -31,14 +31,14 @@ qué problemas necesitan más trabajo:
 
 | Problema | Enunciado          | Explicación        | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) |
 | :------: | :----------------: | :---------:        | :--------------:   | :--------------:   | :--------------:   |
-| A        | :white_check_mark:                | :white_check_mark:                | :white_check_mark:                | :white_check_mark:                | :x:                |
+| A        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
 | B        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | C        | :x:                | :x:                | :x:                | :x:                | :x:                |
 | D        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
 | E        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| F        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| G        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                |
-| H        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| F        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| G        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| H        | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :x:                |
 | I        | :x:                | :x:                | :x:                | :x:                | :x:                |
 | J        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | K        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
