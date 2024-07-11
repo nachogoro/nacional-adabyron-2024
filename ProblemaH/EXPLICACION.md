@@ -52,10 +52,10 @@ con cada una de las cabezas iniciales. Hay que tener en cuenta que cada cuello
 (cada nodo no-hoja) se convertirá, tras la desaparición de todas las cabezas
 que salían de él, en otra cabeza. Por lo tanto, para saber cuántos cortes harán
 falta para acabar con un nodo intermedio en el nivel $n$ debemos tratarlo como
-si fuese una cabeza en el nivel $n+1$ (puesto que en eso se convertirá cuando
+si fuese una cabeza en el nivel $n$ (puesto que en eso se convertirá cuando
 desaparezcan todas sus cabezas):
 
-$$cortes_{cuello}(n) = cortes_{cabeza}(n+1)$$
+$$cortes_{cuello}(n) = cortes_{cabeza}(n)$$
 
 Por lo tanto, para calcular los cortes necesarios podemos recorrer nuestro
 árbol llevando cuenta del nivel en el que se encuentra el nodo actual, y
@@ -70,4 +70,4 @@ o un nodo intermedio (tiene uno o más hijos).
 
 | Solución | Verificado con el juez |
 | :------: | :--------------------: |
-| | |
+| | [HBucle.java](src/HBucle.java)| :white_check_mark: |

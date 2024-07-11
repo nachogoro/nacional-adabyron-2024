@@ -16,7 +16,7 @@ cortada, surgen las réplicas, igual que en las hidras, pero no en el mismo
 punto donde estaba la recién cortada, sino en la ramificación inmediata-
 mente anterior del cuello.
 
-Por ejemplo, si del cuerpo de una determinada *trhidra *salen dos cuellos,
+Por ejemplo, si del cuerpo de una determinada *trhidra* salen dos cuellos,
 cada uno con una ramificación de la que surgen dos cabezas, al cortar una
 cabeza surgen dos nuevas en la ramificación anterior que, en este caso,
 resulta ser el cuerpo.
@@ -33,7 +33,7 @@ Pese a la fiereza de la *trhidra*, terminar con todas sus cabezas es más sencil
 que en el caso de las hidras, porque las cabezas que surgen directamente del
 cuerpo, y no de un cuello ramificado, no se regeneran, al estar en el primer
 nivel de ramificación y no haber uno anterior. Cuando todas las cabezas que
-surgen del cuerpo son cortadas, la *trhidra *muere.
+surgen del cuerpo son cortadas, la *trhidra* muere.
 
 ## Entrada
 Cada caso de prueba comienza con un primer número, entre 1 y 10, que indica el
@@ -47,7 +47,7 @@ siguiendo este mismo esquema, de cada uno de ellos. Un cuello sin ramificación
 se indica con un 0, que terminará en una cabeza. Ningún cuello tiene una
 ramificación mayor que 10.
 
-A veces la *trhidra *ha pasado por batallas anteriores y tiene algunas cabezas ya
+A veces la *trhidra* ha pasado por batallas anteriores y tiene algunas cabezas ya
 cortadas, por lo que algún cuello podría tener una ramificación de 1.  La
 entrada termina con un 0.
 
