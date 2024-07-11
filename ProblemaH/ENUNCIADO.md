@@ -4,8 +4,8 @@ Como penitencia por el asesinato, en un ataque de locura, de su mujer,
 hijos y dos sobrinos, Hércules tuvo que cumplir los que se conocen como
 “los doce trabajos de Hércules”. El segundo de ellos fue matar a la hidra
 de Lerna, un monstruo acuático con forma de serpiente y nueve cabezas
-de dragón. Cada vez que Hércules conseguía cortar una cabeza, se regene-
-raban dos más. Consiguió vencer al monstruo con la ayuda de su sobrino
+de dragón. Cada vez que Hércules conseguía cortar una cabeza, se regeneraban
+dos más. Consiguió vencer al monstruo con la ayuda de su sobrino
 Yolao, quien con una antorcha quemaba el cuello de la hidra tras el corte
 de cada cabeza para evitar el surgimiento de las dos nuevas.
 
@@ -13,8 +13,8 @@ Un subgénero de las hidras, quizá más espantoso, son las *trhidras*. Del
 cuerpo de la serpiente surgen cuellos que, a veces, no acaban en cabezas,
 sino que antes se ramifican, incluso varias veces. Cuando una cabeza es
 cortada, surgen las réplicas, igual que en las hidras, pero no en el mismo
-punto donde estaba la recién cortada, sino en la ramificación inmediata-
-mente anterior del cuello.
+punto donde estaba la recién cortada, sino en la ramificación inmediatamente
+anterior del cuello.
 
 Por ejemplo, si del cuerpo de una determinada *trhidra* salen dos cuellos,
 cada uno con una ramificación de la que surgen dos cabezas, al cortar una
