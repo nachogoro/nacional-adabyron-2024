@@ -31,7 +31,7 @@ qué problemas necesitan más trabajo:
 
 | Problema | Enunciado          | Explicación        | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) | ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) | ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) |
 | :------: | :----------------: | :---------:        | :--------------:   | :--------------:   | :--------------:   |
-| A        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| A        | :x:                | :x:                | :x:                | :white_check_mark: | :x:                |
 | B        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | C        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | D        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
