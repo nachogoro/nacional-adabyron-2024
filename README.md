@@ -33,16 +33,16 @@ qué problemas necesitan más trabajo:
 | :------: | :----------------: | :---------:        | :--------------:   | :--------------:   | :--------------:   |
 | A        | :x:                | :x:                | :x:                | :x:                | :x:                |
 | B        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| C        | :x:                | :x:                | :x:                | :x:                | :x:                |
+| C        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | D        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
 | E        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| F        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| G        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :x:                |
+| F        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| G        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
 | H        | :x:                | :x:                | :x:                | :x:                | :x:                |
 | I        | :x:                | :x:                | :x:                | :x:                | :x:                |
 | J        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | K        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| L        | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
+| L        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: |
 
 ¡Anímate a contribuir incluso si ya existen soluciones para el problema que
 tenías en mente! El propósito de esta tabla es mostrar el estado actual del
