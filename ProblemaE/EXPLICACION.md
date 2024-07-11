@@ -25,6 +25,8 @@ es igual a su longitud, i.e. $k + 1$.
 
 # Soluciones
 
-|     Solución     | Verificado con el juez |
-|:----------------:|:----------------------:|
-| [E.py](src/E.py) |   :white_check_mark:   |
+|       Solución       | Verificado con el juez |
+|:--------------------:|:----------------------:|
+|   [E.py](src/E.py)   |   :white_check_mark:   |
+|  [E.cpp](src/E.cpp)  |   :white_check_mark:   |
+| [E.java](src/E.java) |   :white_check_mark:   |
