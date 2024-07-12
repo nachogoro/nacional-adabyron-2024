@@ -6,7 +6,7 @@ final nacional del concurso de programación competitiva [AdaByron
 por participantes del concurso.
 
 El cuadernillo oficial con todos los enunciados puede encontrarse en [este
-enlace](https://ada-byron.es/documents/ProblemsSets/2024/AdaByron-2024-Nacional.pdf)
+enlace](https://ada-byron.es/documents/ProblemsSets/2024/AdaByron-2024-Nacional.pdf).
 
 ## Acerca de este repositorio
 Cada carpeta en la raíz del directorio contiene el enunciado del ejercicio
@@ -34,15 +34,15 @@ qué problemas necesitan más trabajo:
 | A        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
 | B        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | C        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| D        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| E        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| D        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| E        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | F        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
 | G        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
 | H        | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | I        | :x:                | :x:                | :x:                | :x:                | :x:                |
 | J        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | K        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| L        | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
+| L        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: |
 
 ¡Anímate a contribuir incluso si ya existen soluciones para el problema que
 tenías en mente! El propósito de esta tabla es mostrar el estado actual del
