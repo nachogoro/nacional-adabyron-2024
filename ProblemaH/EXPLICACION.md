@@ -35,10 +35,12 @@ la hidra, esto acaba cuando llegamos al nivel $1$, pues las cabezas de ese
 nivel salen directamente del cuerpo de la *trhidra* y no generan más cabezas.
 
 Es decir, para eliminar completamente una cabeza en el nivel $n$ hemos necesitado:
+
 $$cortes_{cabeza}(n) = 1 + f + f^2 + f^3 + ... + f^{n-1} = \sum_{k=0}^{n-1} f^k$$
 
 Esto es una suma geométrica, que podemos calcular manualmente con un bucle o usando la fórmula:
-$$cortes_{cabeza}(n) = \frac{1-f^n}{1-f}$$
+
+$$cortes_{cabeza}(n) = \frac{f^n-1}{f-1}$$
 
 Nos interesa la solución módulo $1.000.000.007$, y si trabajamos en un lenguaje
 donde los enteros puedan desbordar y queremos trabajar con números pequeños en
@@ -59,8 +61,7 @@ $$cortes_{cuello}(n) = cortes_{cabeza}(n)$$
 
 Por lo tanto, para calcular los cortes necesarios podemos recorrer nuestro
 árbol llevando cuenta del nivel en el que se encuentra el nodo actual, y
-aplicar la fórmula apropiada en función de si es un nodo hoja (no tiene hijos)
-o un nodo intermedio (tiene uno o más hijos).
+aplicar la fórmula del número de cortes necesarios.
 
 # Posibles errores
 - Intentar aplicar la fórmula de la suma geométrica distribuyendo la operación
