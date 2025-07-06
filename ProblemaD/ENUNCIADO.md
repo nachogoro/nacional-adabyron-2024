@@ -2,11 +2,11 @@
 
 En clase de lengua, Hannah ha aprendido a clasificar palabras
 por distintos criterios: según su morfología (sustantivos, adjetivos,
-artículos, verbos. . . ), según su acentuación (agudas, llanas, esdrújulas,
+artículos, verbos... ), según su acentuación (agudas, llanas, esdrújulas,
 sobreesdrújulas), según su estructura (simples, derivadas, compuestas,
 parasintéticas), según su significado (léxicas, gramaticales, monosémicas,
 polisémicas), según su número de sílabas (monosílabas, bisílabas, trisílabas,
-polisílabas), etc.  Hannah cree que hay otras formas curiosas de clasificar
+polisílabas), etc. Hannah cree que hay otras formas curiosas de clasificar
 palabras.
 
 Ha estado mirando el diccionario de la lengua española y tiene curiosidad por
@@ -38,9 +38,10 @@ equiliteral.
 La entrada comienza con un número indicando cuántos casos de prueba deberán
 procesarse (no más de 1.000).
 
-Cada caso de prueba ocupa una única línea y contiene una palabra de N
-caracteres (1 ≤ N ≤ 50).  Los caracteres se componen de letras minúsculas del
-alfabeto inglés, de la 'a' a la 'z', sin espacios, tildes ni eñes.
+Cada caso de prueba ocupa una única línea y contiene una palabra de $N$
+caracteres ($1 \leq N \leq 50$).  Los caracteres se componen de letras
+minúsculas del alfabeto inglés, de la 'a' a la 'z', sin espacios, tildes ni
+eñes.
 
 ## Salida
 Para cada caso de prueba se escribirá una sola línea indicando SI, si se trata
