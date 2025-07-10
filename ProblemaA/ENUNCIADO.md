@@ -21,7 +21,7 @@ suficiente para que todos pudieran dormir.
 Y ahí fue donde se vino abajo todo el plan. Con tantos días posibles y tantas
 plazas hoteleras disponibles, ni siquiera fueron capaces de calcular cuántas
 posibilidades de elección tenían. Al final decidieron organizar el concurso
-como el a˜no anterior y esperar al vigésimo aniversario para hacer el evento
+como el año anterior y esperar al vigésimo aniversario para hacer el evento
 memorable.
 
 ## Entrada
