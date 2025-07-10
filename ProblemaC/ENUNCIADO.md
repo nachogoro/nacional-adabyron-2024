@@ -64,15 +64,15 @@ A continuación aparece un ejemplo de ejecución.
 
 En cursiva aparece lo leído por la entrada estándar y en negrita lo escrito por la salida estándar.
 
-_2 1_
-**? 5 -1**
-_N_
-**? 8 4**
-_O_
-**? 2 5**
-_IND_
-**? 7 6**
-_IND_
+_2 1_  
+**? 5 -1**  
+_N_  
+**? 8 4**  
+_O_  
+**? 2 5**  
+_IND_  
+**? 7 6**  
+_IND_  
 **Respuesta: 4 3**
 
 Las coordenadas de la singularidad y de Arenópolis son números enteros
