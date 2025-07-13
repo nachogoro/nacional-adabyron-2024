@@ -60,12 +60,12 @@ alguna dirección.
 ## Opción 2 para evitar la zona de exclusión: ignorar Arenópolis
 
 Sabemos que tanto Arenópolis como la singularidad tienen ambas coordenadas $(x,
-y)$ entre $\\[-10^8, 10^8\\]$. Sabemos además que Arenópolis nunca estará
+y)$ entre $\[-10^8, 10^8\]$. Sabemos además que Arenópolis nunca estará
 dentro de la zona de exclusión. Lo más grande que puede ser la dimensión de la
-zona de exclusión desde el centro de la singularidad es por tanto $2 \cdot 10^8
-- 1$, si colocásemos la singularidad y Arenópolis en vértices opuestos del
-cuadrado. En ese caso, suponiendo que la singularidad se encuentre en la
-coordenada $y_s$ más alta, $y_s = 10^8$, la zona de exclusión se extenderá
+zona de exclusión desde el centro de la singularidad es por tanto
+$2 \cdot 10^8 - 1$, si colocásemos la singularidad y Arenópolis en vértices
+opuestos del cuadrado. En ese caso, suponiendo que la singularidad se encuentre
+en la coordenada $y_s$ más alta, $y_s = 10^8$, la zona de exclusión se extenderá
 hasta $y_{e} = 10^8 + 2 \cdot 10^8 - 1 = 3 \cdot 10^8 - 1$. Por lo tanto, la
 coordenada $y_s = 3 \cdot 10^8$ siempre estará fuera de la zona de exclusión y
 será seguro consultarla.
