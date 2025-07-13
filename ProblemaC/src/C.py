@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import math
 
 L = 10 ** 8
@@ -31,7 +33,7 @@ if __name__ == '__main__':
         if x1 is None:
             raise Exception('Unsuccessful search')
         # find the point for line with slope -1
-        left = 2 * L 
+        left = 2 * L
         right = 6 * L
         while left <= right:
             k = (left + right) // 2

@@ -23,10 +23,11 @@ apunta exactamente al sitio de la singularidad, sí que indica el punto cardinal
 más cercano (`N`, `S`, `E`, `O`) a la dirección en la que se encuentra.  Eso
 sí, si la dirección está exactamente a medio camino de dos puntos cardinales,
 la brújula discreta no sabe decidirse, y muestra la palabra `IND` (indefinido).
-Por ejemplo, en la siguiente figura (la figura no se muestra aquí, se puede ver
-en el cuadernillo de enunciados), el círculo negro representa la singularidad,
+Por ejemplo, en la siguiente figura, el círculo negro representa la singularidad,
 el cuadrado rojo su zona de exclusión, y los puntos azules son los lugares en
 los que se ha utilizado la brújula discreta.
+
+![](images/brujulas.png)
 
 Desde el lugar marcado con $1$, el punto cardinal más cercano a la dirección de
 la singularidad es el norte.  Por tanto, la brújula discreta marcaría `N`
@@ -62,7 +63,8 @@ situación.
 
 A continuación aparece un ejemplo de ejecución.
 
-En cursiva aparece lo leído por la entrada estándar y en negrita lo escrito por la salida estándar.
+En cursiva aparece lo leído por la entrada estándar y en negrita lo escrito por
+la salida estándar.
 
 _2 1_  
 **? 5 -1**  
