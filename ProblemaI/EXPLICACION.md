@@ -46,10 +46,10 @@ búsqueda binaria, $[m_{min}, m_{max}]$.
 
 Se nos pide una precisión de $10^{-6}$, por lo que debemos encontrar la
 solución con una precisión de $\epsilon=10^{-7}$ para que el redondeo a seis
-decimales sea exacto. El espacio de búsqueda estará compuesto de $\frac{m_{max}
-- m_{min}}{\epsilon}$ medias posible, y necesitaremos $\log2{\frac{m_{max} -
-  m_{min}}{\epsilon}}$ consultas.  Buscaremos la media más grande de todas las
-posibles que sea posible de obtener.
+decimales sea exacto. El espacio de búsqueda estará compuesto de
+$\frac{m_{max} - m_{min}}{\epsilon}$ medias posible, y necesitaremos
+$\log2{\frac{m_{max} - m_{min}}{\epsilon}}$ consultas.
+Buscaremos la media más grande de todas las posibles que sea posible de obtener.
 
 Necesitamos ahora una forma de comprobar, dada una media $m$, si es posible
 encontrar un camino entre $f$ y $t$ en $G_u$ con una media igual o superior a $m$.
