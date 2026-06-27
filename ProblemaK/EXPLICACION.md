@@ -22,10 +22,55 @@ que podemos prescindir completamente del array $pierde$. Es por eso que se han i
 implementando la idea original del problema y más fácil de entender, y otra más eficiente que simplemente elimina el array
 de programación dinámica de la primera implementación.
 
+# Una aproximación alternativa: maximizar hacia atrás
+
+La solución anterior minimiza los puntos perdidos. Una forma alternativa (e igualmente
+eficiente) consiste en **maximizar directamente la puntuación obtenida**, rellenando un
+array de programación dinámica de derecha a izquierda.
+
+Definimos (con indexación 0-based) el array
+$$dp[i] := \text{máxima puntuación obtenible jugando a partir de la partida } i,$$
+asumiendo que llegamos a $i$ "frescos", es decir, que la partida $i-1$ no se jugó y por
+tanto la racha de partidas consecutivas vuelve a empezar en $i$. La respuesta al problema
+es $dp[0]$. Por convenio, $dp[n] := 0$ (no hay nada que jugar más allá del final).
+
+En cada partida $i$ tenemos dos opciones:
+
+- **Saltarnos la partida $i$**: no ganamos nada y es como empezar de nuevo en $i+1$, lo
+  que aporta $dp[i+1]$.
+- **Jugar la partida $i$**: como no podemos encadenar más de $K$ partidas, debemos elegir
+  una partida $j$ con $i < j \le i + K$ que será la primera que nos saltemos. Jugamos
+  entonces el bloque $i, i+1, \dots, j-1$ y reanudamos frescos en $j+1$. Esto aporta
+  $$\text{sum}(i..j-1) + dp[j+1].$$
+
+Juntando ambas opciones:
+$$dp[i] = \max\Big(\, dp[i+1],\ \max_{i < j \le i+K} \big(\text{sum}(i..j-1) + dp[j+1]\big) \Big).$$
+
+Usando una suma prefija $\text{prefix}[i] = p_0 + \dots + p_i$, tenemos
+$\text{sum}(i..j-1) = p_i + \big(\text{prefix}[j-1] - \text{prefix}[i]\big)$, de modo que la
+recursión se reescribe como
+$$dp[i] = \max\Big(\, dp[i+1],\ p_i - \text{prefix}[i] + \max_{i < j \le i+K} \big(\text{prefix}[j-1] + dp[j+1]\big) \Big).$$
+
+El factor $p_i - \text{prefix}[i]$ es constante para un $i$ dado y sale fuera del máximo
+interno. El término que se maximiza, $\text{prefix}[j-1] + dp[j+1]$, **solo depende de
+$j$**, por lo que podemos guardarlo en una
+[cola monótona](https://cp-algorithms.com/data_structures/stack_queue_modification.html#queue-modification-method-2)
+indexada por $j$ y obtener el máximo de la ventana de los $K$ candidatos relevantes en
+$O(1)$. Como rellenamos $dp$ de derecha a izquierda, cuando calculamos $dp[i]$ la cola
+contiene exactamente los índices $j \in [i+1,\, i+K]$, que son los que necesitamos.
+
+Las $K$ últimas partidas son un caso base: desde ellas caben como mucho $K$ partidas
+consecutivas hasta el final, así que lo óptimo es jugarlas todas (recordemos que todas las
+puntuaciones son positivas) y simplemente $dp[i] = \text{sum}(i..n-1)$.
+
+El resultado es un algoritmo $O(n)$ análogo al anterior, pero planteado como una
+maximización explícita en lugar de como una minimización de pérdidas.
+
 # Soluciones
 
-|          Solución          | Verificado con el juez |
-|:--------------------------:|:----------------------:|
-| [KConDP.py](src/KConDP.py) |   :white_check_mark:   |
-| [KSinDP.py](src/KSinDP.py) |   :white_check_mark:   |
-| [K.cpp](src/K.cpp) |   :white_check_mark:   |
+|              Solución              | Verificado con el juez |
+|:----------------------------------:|:----------------------:|
+|     [KConDP.py](src/KConDP.py)     |   :white_check_mark:   |
+|     [KSinDP.py](src/KSinDP.py)     |   :white_check_mark:   |
+|         [K.cpp](src/K.cpp)         |   :white_check_mark:   |
+| [K_backwards.cpp](src/K_backwards.cpp) |   :white_check_mark:   |
